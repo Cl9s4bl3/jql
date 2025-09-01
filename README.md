@@ -24,6 +24,8 @@ sudo cp target/release/jql /usr/bin
 
 ## Usage
 
+```
 jql main.json .user.name
 
 cat main.json | jql .items[0]
+```
